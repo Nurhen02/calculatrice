@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Disfruta Tu Calculadora "
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:textColor="@color/purple_700"/>
+<EditText
+    android:id="@+id/edText1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="70dp"
+    android:ems="10"
+    android:inputType="number"
+    android:textSize="20sp"
+    android:hint="0"/>
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp">
+<Button
+    android:id="@+id/btn1"
+    android:text="1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="10dp"
+    android:backgroundTint="@color/purple_200"/>
+<Button
+    android:id="@+id/btn2"
+    android:text="2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_200"/>
+
+<Button android:id="@+id/btn3"
+    android:text="3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_200"/>
+
+<Button android:id="@+id/btnplus"
+    android:text="+"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_500"
+    />
+</LinearLayout>
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp">
+<Button
+    android:id="@+id/btn4"
+    android:text="4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="10dp"
+    android:backgroundTint="@color/purple_200"/>
+<Button
+    android:id="@+id/btn5"
+    android:text="5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_200"/>
+
+<Button android:id="@+id/btn6"
+    android:text="6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_200"/>
+
+<Button android:id="@+id/btnmoins"
+    android:text="-"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_500"
+    />
+</LinearLayout>
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp">
+<Button
+    android:id="@+id/btn7"
+    android:text="7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="10dp"
+    android:backgroundTint="@color/purple_200"/>
+<Button
+    android:id="@+id/btn8"
+    android:text="8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_200"/>
+
+<Button android:id="@+id/btn9"
+    android:text="9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_200"/>
+
+<Button android:id="@+id/btnmultiple"
+    android:text="*"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_500"
+    />
+</LinearLayout>
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp">
+<Button
+    android:id="@+id/btn0"
+    android:text="0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="10dp"
+    android:backgroundTint="@color/purple_200"/>
+<Button
+    android:id="@+id/btnpoint"
+    android:text="."
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_500"/>
+
+<Button android:id="@+id/btnclear"
+    android:text="C"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_500"/>
+
+<Button android:id="@+id/btndivise"
+    android:text="/"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:backgroundTint="@color/purple_500"
+    />
+</LinearLayout>
+<Button
+android:id="@+id/btnegale"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:layout_marginTop="10dp"
+android:text="="
+android:layout_marginRight="9dp"
+android:layout_marginLeft="7dp"
+    android:backgroundTint="@color/purple_700"
+    />
+</LinearLayout>
